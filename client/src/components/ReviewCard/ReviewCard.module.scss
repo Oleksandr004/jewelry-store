@@ -1,0 +1,29 @@
+.container {
+	max-width: 610px;
+}
+.row {
+	display: flex;
+	gap: 16px;
+	margin-bottom: 16px;
+}
+.name {
+	font-family: DM Sans;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+.date {
+	font-family: DM Sans;
+	color: rgb(112, 112, 112);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.review {
+	margin-top: 15px;
+	font-family: DM Sans;
+	color: rgb(112, 112, 112);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+}

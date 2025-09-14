@@ -1,0 +1,31 @@
+.container {
+	max-width: 1278px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.title {
+	font-family: DM Sans;
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 252px;
+	a {
+		padding-right: 15px;
+	}
+}
+@media (max-width: 1214px) {
+	.row {
+		justify-content: center;
+		gap: 20px;
+	}
+	.row {
+		a {
+			padding: 0;
+		}
+	}
+}

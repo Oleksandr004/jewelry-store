@@ -1,0 +1,19 @@
+.container {
+	max-width: 700px;
+	margin: 68px auto 0;
+	padding: 0 15px;
+}
+.title {
+	font-family: DM Sans;
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 1.4;
+	margin-bottom: 42px;
+}
+.comments_column {
+	display: flex;
+	flex-direction: column;
+	gap: 38.5px;
+	margin-top: 42px;
+	margin-bottom: 252px;
+}

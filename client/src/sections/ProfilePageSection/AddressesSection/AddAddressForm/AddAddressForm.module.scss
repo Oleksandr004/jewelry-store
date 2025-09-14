@@ -1,0 +1,21 @@
+.container {
+	width: 610px;
+}
+.name_row {
+	display: flex;
+	margin: 24px 0 37px;
+	justify-content: space-between;
+}
+.info_column {
+	display: flex;
+	flex-direction: column;
+	gap: 37px;
+}
+@media (max-width: 630px) {
+	.name_row {
+		display: none;
+	}
+	.info_column input {
+		width: 100%;
+	}
+}

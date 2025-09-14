@@ -1,0 +1,22 @@
+.row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 23px;
+	background: rgba(239, 239, 239, 1);
+	border-top: 2px solid rgba(161, 138, 104, 1);
+}
+.title {
+	font-family: DM Sans;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 27px;
+}
+.link {
+	color: rgba(161, 138, 104, 1);
+	font-family: DM Sans;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 100%;
+	cursor: pointer;
+}

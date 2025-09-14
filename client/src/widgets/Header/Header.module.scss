@@ -1,0 +1,155 @@
+.container {
+	max-width: 1308px;
+	margin: 64px auto 0px;
+	padding: 0 15px;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+.links_row {
+	display: flex;
+	gap: 64px;
+	margin-right: 48px;
+	a {
+		font-family: DM Sans;
+		color: black;
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.5;
+	}
+}
+
+.icons_row {
+	display: flex;
+	gap: 39px;
+	margin-left: 48px;
+}
+
+.line {
+	border: 1px solid rgb(216, 216, 216);
+	margin-top: 17px;
+}
+.burger_btn {
+	display: none;
+	flex-direction: column;
+	gap: 4.69px;
+	cursor: pointer;
+	height: 15px;
+}
+
+.burger_btn span {
+	display: block;
+	height: 1.87px;
+	background: black;
+	border-radius: 1px;
+}
+
+.burger_btn span:first-child {
+	width: 20px;
+}
+
+.burger_btn span:nth-child(2) {
+	width: 20px;
+}
+
+.burger_btn span:last-child {
+	width: 13px;
+	margin-left: 7px;
+}
+@media (max-width: 800px) {
+	.links_row {
+		margin-right: 0;
+	}
+}
+@media (max-width: 630px) {
+	.burger_btn {
+		display: flex;
+	}
+	.links_row {
+		display: none;
+	}
+	.search_icon {
+		display: none;
+	}
+	.account_icon {
+		display: none;
+	}
+	.icons_row {
+		gap: 15px;
+		align-items: center;
+	}
+}
+.burger_menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	z-index: 99999999999;
+}
+.container_burger {
+	padding: 16px 16px 0 16px;
+}
+.burger_header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	div {
+		display: flex;
+		gap: 20px;
+		align-items: center;
+		img {
+			width: 16px;
+			height: 16px;
+		}
+	}
+}
+.search {
+	position: relative;
+	width: 100%;
+	height: 32px;
+	background-color: rgba(239, 239, 239, 1);
+	border-radius: 10px;
+	margin-top: 8px;
+	margin-bottom: 39px;
+	img {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		height: 12px;
+		width: 12px;
+	}
+	p {
+		position: absolute;
+		top: 6px;
+		left: 30px;
+		color: rgba(112, 112, 112, 1);
+		font-family: DM Sans;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 20px;
+	}
+}
+.burger_nav {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	font-family: DM Sans;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+.my_account {
+	display: flex;
+	gap: 10px;
+	margin-top: 24.5px;
+	margin-bottom: 23px;
+}
+.logout {
+	display: flex;
+	gap: 12px;
+}

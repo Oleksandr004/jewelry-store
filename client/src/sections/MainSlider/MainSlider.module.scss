@@ -1,0 +1,38 @@
+.container {
+	max-width: 1278px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.title {
+	position: absolute;
+	top: 226px;
+	left: 39px;
+	font-family: DM Sans;
+	color: white;
+	font-size: 33px;
+	line-height: 1.5;
+	font-weight: 500;
+}
+.subtitle {
+	position: absolute;
+	top: 285px;
+	left: 39px;
+	font-family: DM Sans;
+	color: white;
+	font-size: 26px;
+	line-height: 1.5;
+	font-weight: 400;
+}
+.btn {
+	position: absolute;
+	top: 368px;
+	left: 39px;
+	padding: 13px 31px;
+	font-family: DM Sans;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+	border: 2px solid white;
+	border-radius: 6px;
+}
