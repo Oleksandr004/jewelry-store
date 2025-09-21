@@ -41,10 +41,13 @@ The project is implemented in **React (TypeScript) + Express + MongoDB** and inc
 
 ## 📷 Screenshots
 ![Screenshot of the interface](https://res.cloudinary.com/dqelst5rc/image/upload/v1758490980/Screenshot_2025-09-22_004224_csyygv.png)
+---
 
 ![Screenshot of the interface](https://res.cloudinary.com/dqelst5rc/image/upload/v1758490978/Screenshot_2025-09-22_004246_c5jukh.png)
+---
 
 ![Screenshot of the user interface](https://res.cloudinary.com/dqelst5rc/image/upload/v1758490923/Screenshot_2025-09-22_002752_dd046i.png)
+---
 
 ---
 
@@ -58,5 +61,3 @@ POST   /api/products/:id/comments # comment on product
 GET    /api/blog                  # list of posts
 GET    /api/blog/:id              # post with comments
 POST   /api/blog/:id/comments     # comment on post🛠️ Technologies
-- **Frontend**: React 19, TypeScript, React Router DOM 7, Zustand, React Hook Form, SCSS Modules, MUI, Swiper, Vite  
-- **Backend**:
